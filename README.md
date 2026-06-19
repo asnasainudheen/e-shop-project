@@ -19,6 +19,7 @@ Full-stack E-Shop application built using HTML, CSS, JavaScript, Node.js, Expres
 - Express.js
 - MongoDB
 
-cd backend
-node server.js 
-open index.html with liveserver
+# how to run
+- cd backend
+- node server.js 
+- open index.html with liveserver
