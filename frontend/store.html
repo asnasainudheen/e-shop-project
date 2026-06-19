@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>E-Shop</title>
+
+    <link
+        rel="stylesheet"
+        href="store.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="nav-left">
+
+            <h2>E-Shop</h2>
+
+            <span class="welcome-text">
+                Welcome to E-Shop
+            </span>
+
+        </div>
+
+        <div class="nav-right">
+
+    <span id="profileName">
+    </span>
+
+    <a href="orders.html">
+        Track Orders
+    </a>
+
+    <a href="cart.html">
+        View Cart
+        (<span id="cartCount">0</span>)
+    </a>
+
+    <button onclick="logout()">
+        Logout
+    </button>
+
+</div>
+
+    </nav>
+
+   <div
+    class="products-container"
+    id="products">
+
+</div>
+
+<!-- Product Details Popup -->
+
+<div id="productModal" class="modal">
+
+    <div class="modal-content large-modal">
+
+        <span
+            class="close-btn"
+            onclick="closeModal()">
+
+            &times;
+
+        </span>
+
+        <div class="modal-body">
+
+            <div class="modal-left">
+
+                <img
+                    id="modalImage"
+                    class="modal-image">
+
+            </div>
+
+            <div class="modal-right">
+
+                <h2 id="modalName"></h2>
+
+                <h3 id="modalPrice"></h3>
+
+                <pre id="modalDescription"></pre>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="store.js"></script>
+
+</body>
+</html>
