@@ -31,7 +31,7 @@ async function registerUser() {
         document.getElementById("email").value;
 
     const password =
-        document.getElementById("password").value;
+    document.getElementById("registerPassword").value;
 
     try {
 

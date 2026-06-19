@@ -5,19 +5,17 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
+    <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
 
     <title>E-Shop</title>
 
-    <link
-        rel="stylesheet"
+    <link rel="stylesheet"
         href="style.css">
 
 </head>
 
-<body class="auth-page"></body>
+<body class="auth-page">
 
     <div class="container">
 
@@ -54,18 +52,22 @@
                     id="loginEmail"
                     placeholder="Email">
 
-              <div class="password-box">
-    <input
-        type="password"
-        id="loginPassword"
-        placeholder="Password">
+                <div class="password-box">
 
-    <span
-        class="toggle-password"
-        onclick="togglePassword('loginPassword', this)">
-        👁️
-    </span>
-</div>
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        placeholder="Password">
+
+                    <span
+                        class="toggle-password"
+                        onclick="togglePassword('loginPassword', this)">
+
+                        👁️
+
+                    </span>
+
+                </div>
 
                 <button onclick="loginUser()">
 
@@ -91,18 +93,22 @@
                     id="email"
                     placeholder="Email">
 
-               <div class="password-box">
-    <input
-        type="password"
-        id="registerPassword"
-        placeholder="Password">
+                <div class="password-box">
 
-    <span
-        class="toggle-password"
-        onclick="togglePassword('registerPassword', this)">
-        👁️
-    </span>
-</div>
+                    <input
+                        type="password"
+                        id="registerPassword"
+                        placeholder="Password">
+
+                    <span
+                        class="toggle-password"
+                        onclick="togglePassword('registerPassword', this)">
+
+                        👁️
+
+                    </span>
+
+                </div>
 
                 <button onclick="registerUser()">
 
